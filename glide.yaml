@@ -1,0 +1,17 @@
+package: main
+import:
+  - package: github.com/ChimeraCoder/anaconda
+    repo:    https://github.com/ChimeraCoder/anaconda.git
+    vcs:     git
+  - package: github.com/ChimeraCoder/tokenbucket
+    repo:    https://github.com/ChimeraCoder/tokenbucket
+    vcs:     git
+  - package: github.com/dustin/go-jsonpointer
+    repo:    https://github.com/dustin/go-jsonpointer
+    vcs:     git
+  - package: github.com/garyburd/go-oauth
+    repo:    https://github.com/garyburd/go-oauth
+    vcs:     git
+  - package: github.com/dustin/gojson
+    repo:    https://github.com/dustin/gojson
+    vcs:     git
