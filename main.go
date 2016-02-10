@@ -6,16 +6,16 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/nii236/gank/vendor/github.com/ChimeraCoder/anaconda"
+	"github.com/ChimeraCoder/anaconda"
 )
 
 // KagomeURL is the address for the Japanese morphological analyser Kagome service
 var KagomeURL = "localhost:8080"
 
 func main() {
-	anaconda.SetConsumerKey("m03RgEpgBDLsODQZ7ew6yxstf")
-	anaconda.SetConsumerSecret("fhsKFBvYHs0d097F09ijpv3WRxg2Fi8BnHOrMJxvW8QstBFOXl")
-	api := anaconda.NewTwitterApi("16979832-LdYmktTeGmAj7IK7sTg9YrU2N5RebroA8deJ7FO9L", "Az1ABD07L8BvtFk0Pq7fjaSNNwLIOlCESrXQLjXfSArWn")
+	anaconda.SetConsumerKey(Secrets.ConsumerKey)
+	anaconda.SetConsumerSecret(Secrets.ConsumerSecret)
+	api := anaconda.NewTwitterApi(Secrets.AccessToken, Secrets.AccessTokenSecret)
 
 	// searchResult, _ := api.GetSearch("日本語", nil)
 	v := url.Values{}
