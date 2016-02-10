@@ -1,0 +1,5 @@
+package: main
+import:
+- package: github.com/ChimeraCoder/anaconda
+- package: github.com/ChimeraCoder/tokenbucket
+- package: github.com/azr/backoff

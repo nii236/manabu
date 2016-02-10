@@ -1,0 +1,27 @@
+hash: 24851c163b56237b726eef8fbce14d69913ce95d4936c6963f00c067107d6343
+updated: 2016-02-10T10:25:26.05185932+08:00
+imports:
+- name: github.com/azr/backoff
+  version: 53511d3c733003985b0b76f733df1f4d0095ee6a
+- name: github.com/ChimeraCoder/anaconda
+  version: afffdbac178c0e78746ea42d7c1af963cb7ef28e
+- name: github.com/ChimeraCoder/tokenbucket
+  version: c5a927568de7aad8a58127d80bcd36ca4e71e454
+- name: github.com/dustin/go-jsonpointer
+  version: 2efc9fef1d9421a8d252a32e20beb10cecd2bbca
+- name: github.com/dustin/gojson
+  version: af16e0e771e2ed110f2785564ae33931de8829e4
+- name: github.com/garyburd/go-oauth
+  version: 255d509a6f270332ffcaef6723047891319a2ffb
+- name: github.com/golang/protobuf
+  version: d20896fc31fb0e955e57970d61eb6eea054ff048
+- name: golang.org/x/crypto
+  version: 1f22c0103821b9390939b6776727195525381532
+- name: golang.org/x/net
+  version: 7f88271ea9913b72aca44fa7fc8af919eacc17ce
+- name: golang.org/x/text
+  version: 2ea5e055772cf5daa0b1478d6e88c8d0c3d4cb79
+- name: google.golang.org/appengine
+  version: 6a436539be38c296a8075a871cc536686b458371
+  repo: https://google.golang.org/appengine
+devImports: []
